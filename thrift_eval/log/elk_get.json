@@ -1,0 +1,11 @@
+# GET /thrfit_eval_demo_index/_search
+{
+    "query": {
+        "query_string": {
+            "fields": ["log_msg"],
+            "query": "ThriftDemoFunc"
+        }
+    },
+    "size": 1,
+    "_source": ["log_msg"]
+}

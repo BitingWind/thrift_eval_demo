@@ -1,0 +1,25 @@
+{
+  "took": 1,
+  "timed_out": false,
+  "_shards": {
+    "total": 25,
+    "successful": 25,
+    "skipped": 0,
+    "failed": 0
+  },
+  "hits": {
+    "total": 1,
+    "max_score": 4.9747925,
+    "hits": [
+      {
+        "_index": "thrfit_eval_demo_index",
+        "_type": "%{[@metadata][type]}",
+        "_id": "aHqMB2wBeNAhLSLOzrZZ",
+        "_score": 4.9747925,
+        "_source": {
+          "log_msg": "thrift func: ThriftDemoFunc, duration: 0.0917730331421s, params: (ARequest(a1=3, a2='str name', Base=Base(LogID='2', Caller='caller name')),)"
+        }
+      }
+    ]
+  }
+}
